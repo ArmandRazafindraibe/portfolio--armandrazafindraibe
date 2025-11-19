@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compétences - E-Portfolio</title>
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/dropdown-nav.css">
+    <link rel="stylesheet" href="../css/competences.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">AR</div>
+            <ul class="nav-links">
+                <li><a href="../index-eportfolio.html">Accueil</a></li>
+                <li class="nav-dropdown">
+                    <a href="#" class="dropdown-toggle">Mes actions professionnelles</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="experiences-professionnelles.html">Mes expériences professionnelles</a></li>
+                        <li><a href="stages-professionnels.html">Mes stages professionnels</a></li>
+                        <li><a href="situations-apprentissage.html" class="active">Mes situations d'apprentissage et d'évaluation</a></li>
+                    </ul>
+                </li>
+                <li><a href="formations-page.html">Formations</a></li>
+                <li><a href="competences-page.html" class="active">Compétences</a></li>
+                <li><a href="projets-page.html">Projets</a></li>
+                <li><a href="contact-page.html">Contact</a></li>
+            </ul>
+            <button class="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <section id="competences" class="visible">
+        <div class="section-container">
+            <h2 class="section-title">Mes compétences</h2>
+            
+            <p class="competences-intro">
+                Actuellement en première année de BUT TC, parcours Marketing Digita, e-business et entrepreneuriat, je prépare uniquement les trois premières compétences du programme national.
+            </p>
+            
+            <p class="competences-instruction">
+                Cliquez ci-dessous pour visualiser en détail mes apprentissages et suivez les liens pour découvrir la démarche et les preuves.
+            </p>
+
+            <!-- Accordéons des compétences -->
+            <div class="competences-accordion">
+
+                <!-- Compétence 1: Marketing -->
+                <div class="accordion-item">
+                    <button class="accordion-header" data-target="marketing">
+                        <span class="accordion-icon">+</span>
+                        <span class="accordion-title">Marketing : conduire les actions marketing</span>
+                    </button>
+                    <div id="marketing" class="accordion-content">
+                        <div class="accordion-body">
+                            <div class="competence-level">
+                                <h4>Niveau 1 : pour construire une offre commerciale simple</h4>
+                                <ul class="competence-list">
+                                    <li><strong>AC11.01</strong> | Analyser l'environnement d'une entreprise en repérant et appréciant les sources d'informations (fiabilité et pertinence)</li>
+                                    <li><strong>AC11.02</strong> | Mettre en oeuvre une étude de marché dans un environnement simple</li>
+                                    <li><strong>AC11.03</strong> | Choisir une cible et un positionnement en fonction de la segmentation du marché</li>
+                                    <li><strong>AC11.04</strong> | Concevoir une offre cohérente et éthique en termes de produits, de prix, de distribution et de communication</li>
+                                </ul>
+                            </div>
+
+                            <div class="competence-level">
+                                <h4>Niveau 2 : pour construire une offre commerciale complexe ou innovante</h4>
+                                <p><em>À développer...</em></p>
+                            </div>
+
+                            <div class="competence-level">
+                                <h4>Niveau 3 : pour construire une solution client étendue à tous les secteurs d'activités</h4>
+                                <p><em>À développer...</em></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Compétence 2: Vente -->
+                <div class="accordion-item">
+                    <button class="accordion-header" data-target="vente">
+                        <span class="accordion-icon">+</span>
+                        <span class="accordion-title">Vente : vendre une offre commerciale</span>
+                    </button>
+                    <div id="vente" class="accordion-content">
+                        <div class="accordion-body">
+                            <p><em>Contenu à développer...</em></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Compétence 3: Communication commerciale -->
+                <div class="accordion-item">
+                    <button class="accordion-header" data-target="communication">
+                        <span class="accordion-icon">+</span>
+                        <span class="accordion-title">Communication commerciale : communiquer l'offre commerciale</span>
+                    </button>
+                    <div id="communication" class="accordion-content">
+                        <div class="accordion-body">
+                            <p><em>Contenu à développer...</em></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Compétence 4: Marketing digital -->
+                <div class="accordion-item">
+                    <button class="accordion-header" data-target="marketing-digital">
+                        <span class="accordion-icon">+</span>
+                        <span class="accordion-title">Marketing digital : gérer une activité digitale</span>
+                    </button>
+                    <div id="marketing-digital" class="accordion-content">
+                        <div class="accordion-body">
+                            <p><em>Contenu à développer...</em></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Compétence 5: E-business et entrepreneuriat -->
+                <div class="accordion-item">
+                    <button class="accordion-header" data-target="ebusiness">
+                        <span class="accordion-icon">+</span>
+                        <span class="accordion-title">E-business et entrepreneuriat : développer un projet e-business</span>
+                    </button>
+                    <div id="ebusiness" class="accordion-content">
+                        <div class="accordion-body">
+                            <p><em>Contenu à développer...</em></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Armand RAZAFINDRAIBE - E-Portfolio. Tous droits réservés.</p>
+    </footer>
+
+    <script src="../js/navigation.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/animations.js"></script>
+    <script src="../js/competences.js"></script>
+    <script src="../js/dropdown-nav.js"></script>
+</body>
+</html>
