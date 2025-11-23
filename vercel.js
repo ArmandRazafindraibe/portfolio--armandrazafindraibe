@@ -1,14 +1,14 @@
-{
-  "redirects" : [
+module.exports = {
+  redirects: [
     {
-      "source": "/",
-      "destination": "/index-eportfolio.html",
-      "permanent": true
+      source: "/",
+      destination: "/index-eportfolio.html",
+      permanent: true
     },
     {
-      "source": "/accueil",
-      "destination": "/index-eportfolio.html",
-      "permanent": true
+      source: "/accueil",
+      destination: "/index-eportfolio.html",
+      permanent: true
     }
   ]
-}
+};
