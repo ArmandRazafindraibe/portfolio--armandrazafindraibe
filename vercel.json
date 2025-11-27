@@ -2,12 +2,12 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "/index-eportfolio.html",
+      "destination": "/index.html",
       "permanent": true
     },
     {
       "source": "/accueil",
-      "destination": "/index-eportfolio.html",
+      "destination": "/index.html",
       "permanent": true
     }
   ]
